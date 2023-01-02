@@ -49,14 +49,15 @@ while True:
 
         # Envoie la commande pour sortir de veille
         subprocess.run(["xset", "dpms", "force", "on"])
+        # Cette commande ne fonctionne pas toujours donc on fait cliquer la sourie
         
-        #fait bouger la sourie
+        
         try:
-    # Votre code utilisant pyautogui...
+        # Votre code utilisant pyautogui...
             pyautogui.click(100, 200)
 
         except pyautogui.FailSafeException:
-    # Code à exécuter en cas d'activation de la fonction "Fail-Safe"
+        # Code à exécuter en cas d'activation de la fonction "Fail-Safe"
           print("Fail-Safe activé ! Arrêt des actions de pyautogui.")
         
 
