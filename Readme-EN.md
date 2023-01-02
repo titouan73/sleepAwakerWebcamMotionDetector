@@ -1,4 +1,4 @@
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/titouan73/sleepAwakerWebcamMotionDetector)
+[![fr](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/titouan73/sleepAwakerWebcamMotionDetector)
 
 # Motion detection with a webcam and standby management
 This Python script allows you to detect movements in front of a webcam and to wake up the computer when a movement is detected.
