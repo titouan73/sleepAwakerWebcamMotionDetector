@@ -1,4 +1,4 @@
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/jonatasemidio/multilanguage-readme-pattern/blob/master/README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/titouan73/webcamMotionDetector/blob/master/Readme-EN.md)
 
 # Detection de mouvement avec une webcam et gestion de veille
 Ce script Python permet de détecter les mouvements devant une webcam et de sortir l'ordinateur de veille lorsqu'un mouvement est détecté.
