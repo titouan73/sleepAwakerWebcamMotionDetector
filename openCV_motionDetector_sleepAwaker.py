@@ -7,7 +7,7 @@ video_capture = cv2.VideoCapture(0)
 
 # Initialise les variables pour la détection de mouvement
 motion_detected = False
-prev_frame = None
+prev_frame = True
 
 while True:
     # Capture la frame courante
@@ -48,13 +48,13 @@ while True:
         motion_detected = True
 
         # Envoie la commande pour sortir de veille
-        subprocess.run(["xset", "dpms", "force", "on"])
+    #    subprocess.run(["xset", "dpms", "force", "on"])
         # Cette commande ne fonctionne pas toujours donc on fait cliquer la sourie
         
         
         try:
         # Votre code utilisant pyautogui...
-            pyautogui.click(100, 200)
+            pyautogui.click()
 
         except pyautogui.FailSafeException:
         # Code à exécuter en cas d'activation de la fonction "Fail-Safe"
