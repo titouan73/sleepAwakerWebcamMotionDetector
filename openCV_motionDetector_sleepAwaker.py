@@ -1,8 +1,9 @@
+# coding=utf-8
 import cv2
 import subprocess
 import pyautogui
 
-# Initialise la capture vidéo à partir de la webcam
+# Initialise la capture vidéo a partir de la webcam
 video_capture = cv2.VideoCapture(0)
 
 # Initialise les variables pour la détection de mouvement
